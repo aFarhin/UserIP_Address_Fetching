@@ -1,0 +1,157 @@
+body {
+    font-family: 'Inter', sans-serif;
+    padding: 10px;
+    background-color: rgb(229, 225, 225);
+
+}
+
+h1 {
+    padding-bottom: 10px;
+}
+
+.main {
+    padding: 20px;
+}
+
+.Farhin {
+    color: rgb(7, 125, 7);
+    font-size: 1rem;
+}
+
+#ip {
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 1.7rem;
+    color: crimson;
+}
+
+#searches {
+    display: none;
+    align-items: center;
+    position: relative;
+}
+
+#z {
+    position: absolute;
+    left: 10px;
+    top: 12px;
+    color: rgb(140, 139, 139);
+    display: none;
+
+}
+
+#search {
+    padding-left: 40px;
+}
+
+#map {
+    margin-top: 20px;
+    width: 99%;
+    height: 300px;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+
+}
+
+#mapDiv {
+    display: none;
+}
+
+b {
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+#btn {
+    width: 200px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Farhin {
+    margin-top: 20px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    display: none;
+    gap: 20px
+}
+
+.data {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.data div {
+    margin-bottom: 10px;
+}
+
+.pinData {
+    margin: 20px 0;
+    display: none;
+    color: blue;
+    font-size: 20px;
+}
+
+.pinData div {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    display: none;
+    margin: 30px 0;
+    border: .5px solid gray;
+
+}
+
+input:focus {
+    border: none;
+}
+
+#postData {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: auto 50%;
+    gap: 30px;
+    color: rgb(10, 94, 52);
+    font-size: 20px;
+
+}
+
+#postData .posts {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    background-color: rgb(235, 221, 186);
+    font-size: 1.1rem;
+}
+
+#postData .posts b {
+    font-size: 1.2rem;
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+
+@media (max-width:600px) {
+    #postData {
+        grid-template-columns: auto;
+
+    }
+}

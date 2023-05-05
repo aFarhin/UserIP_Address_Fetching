@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get User IP Address</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <h1>MY Public IP ADDRESS :<span id="ip"></span></h1>
+        <button id="btn">Get Data</button>
+
+        <div class="Farhin">
+            <div class="data">
+                <div id="lat"></div>
+                <div id="long"></div>
+            </div>
+
+            <div class="data">
+                <div id="city"></div>
+                <div id="region"></div>
+            </div>
+
+            <div class="data">
+                <div id="org"></div>
+                <div id="host"></div>
+            </div>
+        </div>
+
+        <div id="far"></div>
+
+        <div id="mapDiv">
+            <iframe id="map" src="">
+            </iframe>
+        </div>
+
+        <div class="pinData">
+            <div id="time"></div>
+            <div id="date"></div>
+            <div id="pincode"></div>
+            <div id="message"></div>
+        </div>
+        <div id="searches">
+            <input id="search" type="search" placeholder="Filter">
+            <span class="material-icons" id="z">
+                search
+            </span>
+        </div>
+
+        <div id="postData">
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
